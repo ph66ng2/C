@@ -5,8 +5,16 @@ int main()
 {
 
     float nota1; 
-    
+    int idade;
+    char nome [250]; 
     float nota2;
+    float nota3;
+
+    printf("Seu Nome: ");
+       gets(nome);
+
+    printf("Sua Idade: ");
+        scanf("%d", &idade);
 
     printf("Primeira Nota: ");
         scanf("%f", &nota1);
@@ -14,8 +22,11 @@ int main()
     printf("Segunda Nota: ");
         scanf("%f", &nota2);
 
-      float soma = nota1 + nota2;
-      float media = soma / 2;
+    printf("Terceira Nota: ");
+        scanf("%f", &nota3);
+
+      float soma = nota1 + nota2 + nota3; 
+      float media = soma / 3;
 
       if (media >= 7)
       {
@@ -30,8 +41,13 @@ int main()
         printf("Reprovado \n");
       }
       
-
+      system("cls");
+      
       printf("Media: %.1f \n", media);
+
+      printf("Nome: %s \n", nome);
+
+      printf("Idade: %d \n", idade);
 
       return 0;  
 }

@@ -1,0 +1,6 @@
+// shift + alt vc copia e cola rapidinho
+// ctrl + alt vc escreve mais de uma linha por vez
+// int = %d
+// float = %f
+// char = %c
+// char [] = %s
