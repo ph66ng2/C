@@ -4,3 +4,70 @@
 // float = %f
 // char = %c
 // char [] = %s
+
+// cntrl + shitf + L = para selecionar as palavras iguais no seu codigo
+
+// #include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <string.h>
+
+int main()
+{
+
+    setlocale(LC_ALL, "portuguese");
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
